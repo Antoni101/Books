@@ -20,7 +20,8 @@ function search() { //Called when Search Button is pressed
           data.items.forEach(book => {
             var title = book.volumeInfo.title;
             var authors = book.volumeInfo.authors.join(', ');
-            output.innerHTML += '<p><strong>' + title + '</strong> by ' + authors + '</p>';
+            output.innerHTML += '<hr><p><strong class="book-name">' + title + '</strong></p>';
+            output.innerHTML += '<br><strong class="book-author">' + 'By ' + authors + '</strong>';
           });
         } else {
           // No results found

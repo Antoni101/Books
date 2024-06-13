@@ -7,3 +7,71 @@ html, body {
     font-weight: 400;
     font-style: normal;
 }
+
+.book-name {
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 35px;
+}
+
+.book-author {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input {
+    position: relative;
+    margin-top: 10%;
+    transform: translate(-50%);
+    left: 50%;
+    font-size: 50px;
+    border-radius: 50px;
+    width: 35%;
+    height: 10vh;
+    outline: none;
+    border: none;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+button {
+    position: relative;
+    margin-top: 10%;
+    transform: translate(-50%);
+    transform: translateY(10%);
+    left: 35%;
+    font-size: 80px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+    
+}
+
+button:hover {
+    transform: scale(1.5);
+}
+
+button:active {
+    transform: scale(1.2);
+}
+
+#output {
+    position: relative;
+    margin-top: 2%;
+    transform: translate(-50%);
+    left: 50%;
+    width: 700px;
+    height: 650px;
+    text-align: center;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+#output::-webkit-scrollbar {
+    display: none;
+}
+
